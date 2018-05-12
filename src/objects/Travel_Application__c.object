@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Employee Travel Application</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Airlines_Name__c</fullName>
+        <description>Airlines Name</description>
+        <externalId>false</externalId>
+        <label>Airlines Name</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alaska Airlines</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>American Airlines</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Southwest Airlines</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Spirit Airlines</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>United Airlines</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Virgin Airlines</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Date_of_Travel__c</fullName>
+        <description>Date of Travel</description>
+        <externalId>false</externalId>
+        <label>Date of Travel</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Email_Address_of_Traveler__c</fullName>
+        <description>Email Address of Traveler</description>
+        <externalId>false</externalId>
+        <label>Email Address of Traveler</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name_of_the_Traveler__c</fullName>
+        <description>Name of the Traveler</description>
+        <externalId>false</externalId>
+        <label>Name of the Traveler</label>
+        <length>50</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Place_of_Travel_From__c</fullName>
+        <externalId>false</externalId>
+        <label>Place of Travel From</label>
+        <length>50</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Place_of_Travel_To__c</fullName>
+        <description>Place of Travel To</description>
+        <externalId>false</externalId>
+        <label>Place of Travel To</label>
+        <length>50</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ticket_Amount__c</fullName>
+        <description>Ticket Amount</description>
+        <externalId>false</externalId>
+        <label>Ticket Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Traveler_Phone_Number__c</fullName>
+        <description>Traveler Phone Number</description>
+        <externalId>false</externalId>
+        <label>Traveler Phone Number</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <label>Travel Application</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>Airlines_Name__c</columns>
+        <columns>Date_of_Travel__c</columns>
+        <columns>Email_Address_of_Traveler__c</columns>
+        <columns>Name_of_the_Traveler__c</columns>
+        <columns>Place_of_Travel_From__c</columns>
+        <columns>Place_of_Travel_To__c</columns>
+        <columns>Ticket_Amount__c</columns>
+        <columns>Traveler_Phone_Number__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>TA-{000}</displayFormat>
+        <label>Travel Request Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Travel Application</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Airlines_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Date_of_Travel__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Email_Address_of_Traveler__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Name_of_the_Traveler__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Place_of_Travel_From__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Place_of_Travel_To__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Ticket_Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Traveler_Phone_Number__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>OBJECT_ID</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Airlines_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Date_of_Travel__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Email_Address_of_Traveler__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Name_of_the_Traveler__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Place_of_Travel_From__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Place_of_Travel_To__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Ticket_Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Traveler_Phone_Number__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>OBJECT_ID</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Airlines_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Date_of_Travel__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Email_Address_of_Traveler__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Name_of_the_Traveler__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Place_of_Travel_From__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Place_of_Travel_To__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Ticket_Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Traveler_Phone_Number__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

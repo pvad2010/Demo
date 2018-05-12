@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Travel Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Travel Application</value>
+    </caseValues>
+    <fields>
+        <label><!-- Airlines Name --></label>
+        <name>Airlines_Name__c</name>
+        <picklistValues>
+            <masterLabel>Alaska Airlines</masterLabel>
+            <translation><!-- Alaska Airlines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Airlines</masterLabel>
+            <translation><!-- American Airlines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest Airlines</masterLabel>
+            <translation><!-- Southwest Airlines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spirit Airlines</masterLabel>
+            <translation><!-- Spirit Airlines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Airlines</masterLabel>
+            <translation><!-- United Airlines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virgin Airlines</masterLabel>
+            <translation><!-- Virgin Airlines --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date of Travel --></label>
+        <name>Date_of_Travel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Address of Traveler --></label>
+        <name>Email_Address_of_Traveler__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of the Traveler --></label>
+        <name>Name_of_the_Traveler__c</name>
+    </fields>
+    <fields>
+        <label><!-- Place of Travel From --></label>
+        <name>Place_of_Travel_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Place of Travel To --></label>
+        <name>Place_of_Travel_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticket Amount --></label>
+        <name>Ticket_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Traveler Phone Number --></label>
+        <name>Traveler_Phone_Number__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
